@@ -19,6 +19,7 @@
 
 #include "platform/platform.h"
 #include "hal/gpio_api.h"
+#include "rtos/Kernel.h"
 
 #if DEVICE_I2C || defined(DOXYGEN_ONLY)
 
